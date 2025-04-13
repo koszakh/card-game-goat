@@ -1,7 +1,11 @@
+import os
 import socket
+from dotenv import load_dotenv
 
-HOST = '127.0.0.1'  # Адрес сервера
-PORT = 12345        # Порт сервера
+load_dotenv()
+
+HOST = os.getenv('HOST')
+PORT = int(os.getenv('PORT'))
 
 def start_client():
     client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
