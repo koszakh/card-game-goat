@@ -1,7 +1,7 @@
 import tkinter as tk
-from game import Game
-from player import Player
-from gui import GameGUI
+from src.game import Game
+from src.player import Player
+from src.gui import GameGUI
 
 if __name__ == "__main__":
     player1 = Player("Игрок 1")
