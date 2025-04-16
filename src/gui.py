@@ -21,8 +21,6 @@ logging.info("GUI application started.")
 
 load_dotenv()
 
-HOST = os.getenv('HOST')
-PORT = int(os.getenv('PORT'))
 INIT_OPPONENT_NAME = 'Оппонент'
 SOUNDS_DIR = 'sounds'
 

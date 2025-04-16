@@ -7,14 +7,7 @@ from src.game import Game
 from src.player import Player
 from src.deck import Deck
 from src.card import Card
-from dotenv import load_dotenv
 
-load_dotenv()
-
-
-
-# HOST = os.getenv('HOST')
-# PORT = int(os.getenv('PORT'))
 HAND_SIZE = Game.HAND_SIZE
 PLAYERS_COUNT = Game.PLAYERS_COUNT
 
